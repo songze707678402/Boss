@@ -11,13 +11,18 @@ public class Main2Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        Intent intent=getIntent();
+        Intent intent = getIntent();
 
-        String name=intent.getStringExtra("name");
-        String sex=intent.getStringExtra("sex");
-        int age=intent.getIntExtra("age",-1);
-        TextView main2_text=(TextView) findViewById(R.id.main2_text);
-        main2_text.setText(name+":"+age+":"+sex);
+        String name = intent.getStringExtra("name");
+        String sex = intent.getStringExtra("sex");
+        int age = intent.getIntExtra("age", -1);
+
+
+        TextView main2_text = (TextView) findViewById(R.id.main2_text);
+
+
+        main2_text.setText(name + ":" + age + ":" + sex);
+
 
     }
 }
