@@ -9,7 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DefinedView" />
             <option value="$PROJECT_DIR$/Lianxi" />
+            <option value="$PROJECT_DIR$/MVP" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -1,1 +1,1 @@
-include ':app', ':Lianxi'
+include ':app', ':Lianxi', ':DefinedView', ':MVP'
