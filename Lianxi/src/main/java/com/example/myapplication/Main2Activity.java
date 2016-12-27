@@ -16,8 +16,6 @@ public class Main2Activity extends AppCompatActivity {
         String name = intent.getStringExtra("name");
         String sex = intent.getStringExtra("sex");
         int age = intent.getIntExtra("age", -1);
-
-
         TextView main2_text = (TextView) findViewById(R.id.main2_text);
 
 
